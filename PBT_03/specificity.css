@@ -1,0 +1,40 @@
+
+p {
+    color: black;              
+}
+
+body p {
+    color: gray;              
+}
+
+.text {
+    color: blue;           
+}
+
+.highlight {
+    color: green;          
+}
+
+p.text {
+    color: purple;             
+}
+
+.text.highlight {
+    color: orange;            
+}
+
+body .text.highlight {
+    color: pink;               
+}
+
+#demo {
+    color: red;              
+}
+
+#demo.text {
+    color: brown;              
+}
+
+p#demo.text.highlight {
+    color: gold;               
+}
