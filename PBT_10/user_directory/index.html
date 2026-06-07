@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>User Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>User Directory</h1>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Tìm theo tên hoặc email..."
+    >
+
+    <form id="userForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Tên"
+            required
+        >
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            required
+        >
+
+        <button type="submit">
+            Save User
+        </button>
+
+    </form>
+    <div id="loading"></div>
+    <div id="users"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
